@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            style="@style/screenBg"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Add Product"
+                android:fontFamily="@font/urbanist_bold"
+                android:textSize="25sp"
+                android:textColor="@color/myTheme"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo" />
+
+                <ImageButton
+                    android:id="@+id/imageadd"
+                    android:layout_gravity="end|bottom"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border_radius"
+                    android:src="@drawable/edit"
+                    android:pointerIcon="arrow"
+                    app:tint="@color/myTheme"
+                    style="@style/searchBg"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/imageErrTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Image Error"
+                android:textColor="#FF3636"
+                android:textSize="11sp"
+                android:visibility="gone"
+                android:fontFamily="@font/urbanist_bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:helperTextEnabled="true"
+                app:helperText="Only Text Allowed"
+                app:startIconDrawable="@drawable/leaf"
+                app:startIconTint="@color/myTheme"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="30"
+                    android:inputType="textPersonName"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pDescription"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Description"
+                app:counterEnabled="true"
+                app:counterMaxLength="1000"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true"
+                app:helperText="Only Text Allowed!!!"
+                app:startIconDrawable="@drawable/description"
+                app:startIconTint="@color/myTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pDescriptionEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:maxLength="1000"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pPrice"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price"
+                app:counterEnabled="true"
+                app:counterMaxLength="8"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true"
+                app:prefixText="$"
+                app:helperText="Only Number Allowed!!!"
+                app:startIconDrawable="@drawable/price"
+                app:startIconTint="@color/myTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pPriceEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pDiscount"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Discount"
+                app:counterEnabled="true"
+                app:counterMaxLength="2"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true"
+                app:suffixText="%"
+                app:helperText="Only Number Allowed!!!"
+                app:startIconDrawable="@drawable/discount"
+                app:startIconTint="@color/myTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pDiscountEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pStock"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Stock"
+                app:counterEnabled="true"
+                app:counterMaxLength="4"
+                app:suffixText=" qty"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true"
+                app:helperText="Only Number Allowed!!!"
+                app:startIconDrawable="@drawable/stock"
+                app:startIconTint="@color/myTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pStockEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="0dp"
+                    android:text="Cancel"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    style="@style/EcommButtonSecondary"/>
+
+                <Button
+                    android:id="@+id/saveChangesBtn"
+                    android:layout_width="0dp"
+                    android:text="Save Changes"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    style="@style/EcommButton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

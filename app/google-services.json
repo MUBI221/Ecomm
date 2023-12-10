@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "912797299993",
+    "firebase_url": "https://ecomm-586b0-default-rtdb.firebaseio.com",
+    "project_id": "ecomm-586b0",
+    "storage_bucket": "ecomm-586b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912797299993:android:a6e0d62a9ad2e8b7660188",
+        "android_client_info": {
+          "package_name": "com.example.ecomm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpD5DbKzcCxzFRUo6Ruye3DWwiokTYVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

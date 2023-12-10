@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c41032b-3176-413e-8992-27c81422df81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/OrdersFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/WishlistFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/blink_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/bounce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/dialog_slide_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/dialog_slide_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/fadein.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/fadeout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/gridview_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/item_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/layout_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/lefttoright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/mixed_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/righttoleft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/rotate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/sample_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_in_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_in_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_in_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_in_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_out_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_out_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_out_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/slide_out_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/top_delay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/zoomin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/zoomin_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/anim/zoomout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/account_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/cart_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/cart_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/heart_fill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/heart_outlined.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/home_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/home_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/order_fill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/order_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/order_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/user_fill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/user_outlined.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/wishlist_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_wishlist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/DashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/DashboardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/AccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/AccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/CartFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/CartFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/Fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/GetStartedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/GetStartedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/SignupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/SignupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/SplashScreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ecomm/Screens/SplashScreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/password.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_get_started.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_get_started.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/bottom_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/bottom_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WtIekrSwdSJpVgUfCuqwqQTd6A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c41032b-3176-413e-8992-27c81422df81" name="Changes" comment="" />
+      <created>1697545553654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697545553654</updated>
+    </task>
+    <servers />
+  </component>
+</project>

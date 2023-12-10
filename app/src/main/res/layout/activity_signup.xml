@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        style="@style/screenBg">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back"
+            style="@style/iconColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="comm"
+                android:textSize="35sp"
+                android:translationX="-20dp"
+                android:fontFamily="@font/righteous_regular"
+                style="@style/textColor"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            style="@style/textColor"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/user_fill"
+            app:startIconTint="@color/textColor"
+            app:hintEnabled="true"
+            android:hint="Enter Name"
+            app:endIconMode="clear_text"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            app:helperTextEnabled="true"
+            app:helperText="Enter Only Text"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLength="20"
+                style="@style/textColor"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/email"
+            app:startIconTint="@color/textColor"
+            app:hintEnabled="true"
+            android:hint="Enter Email Address"
+            app:endIconMode="clear_text"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="40"
+            app:helperTextEnabled="true"
+            app:helperText="Enter Valid Email Address"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLength="40"
+                style="@style/textColor"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/lock"
+            app:startIconTint="@color/textColor"
+            app:hintEnabled="true"
+            android:hint="Enter Password"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/textColor"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            app:helperTextEnabled="true"
+            app:helperText="Enter Password at least 8 characters"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLength="20"
+                style="@style/textColor"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/cpasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/lock"
+            app:startIconTint="@color/textColor"
+            app:hintEnabled="true"
+            android:hint="Enter Confirm Password"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/textColor"
+            app:errorEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            app:helperTextEnabled="true"
+            app:helperText="Password Must be matched"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cpasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:fontFamily="@font/poppins_regular"
+                android:maxLength="20"
+                style="@style/textColor"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:text="Sign up"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            style="@style/EcommButton"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_shape"
+                android:layout_weight="1"
+                style="@style/searchBg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or continue with"
+                android:textStyle="bold"
+                android:fontFamily="@font/urbanist_regular"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="5dp"
+                style="@style/textColorLight"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_shape"
+                android:layout_weight="1"
+                style="@style/searchBg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/facebookBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1"
+                style="@style/imageShape">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:src="@drawable/facebook_img"/>
+
+                <TextView
+                    android:id="@+id/facebookTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:fontFamily="@font/urbanist_semibold"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    style="@style/textColorLight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/googleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                style="@style/imageShape">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:src="@drawable/google_img"/>
+
+                <TextView
+                    android:id="@+id/googleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Google"
+                    android:fontFamily="@font/urbanist_semibold"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    style="@style/textColorLight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/appleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1"
+                style="@style/imageShape">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="5dp"
+                    style="@style/appleImage"/>
+
+                <TextView
+                    android:id="@+id/appleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apple"
+                    android:fontFamily="@font/urbanist_semibold"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    style="@style/textColorLight"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have an Account? "
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/loginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="12sp"
+                android:textColor="@color/myTheme"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

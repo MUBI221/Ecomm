@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    style="@style/bottomDialogBg">
+
+    <LinearLayout
+        android:layout_width="35dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/small_handle"
+        style="@style/strokeBgColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="Logout"
+        android:textAlignment="center"
+        android:textColor="#F75555"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/line_shape"
+        android:layout_marginVertical="15dp"
+        style="@style/strokeBgColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to log out?"
+        android:textAlignment="center"
+        android:fontFamily="@font/urbanist_bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        style="@style/textColorLight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            style="@style/EcommButtonSecondary"/>
+
+        <Button
+            android:id="@+id/yesBtn"
+            android:text="Yes, Logout"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            style="@style/EcommButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

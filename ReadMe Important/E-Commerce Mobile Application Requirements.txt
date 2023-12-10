@@ -1,0 +1,13 @@
+E-commerce Screens
+
+	1. Splash Screen
+	2. Authentication (Login / Signup / Forgot)
+	3. Dahsboard
+	4. Favorite
+	5. Cart
+	6. Check Out
+	7. Order
+	8. Order Detail
+	9. Product
+	10. Product Detail
+	11. Feedback
